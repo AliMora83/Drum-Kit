@@ -1,13 +1,15 @@
 body {
   text-align: center;
-  background-color: #341241;
-}
+  background-color: #242424;
+  margin-top: 100px;}
 
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: 'Kdam Thmor Pro', sans-serif;
-  text-shadow: 3px 0 #681d70;
+  font-size: 3rem;
+  color: gray;
+  font-family: 'Roboto', sans;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 200;
 }
 
 a {
@@ -17,7 +19,7 @@ a {
 }
 
 footer {
-  color: #DBEDF3;
+  color: gray;
   font-family: sans-serif;
 }
 
@@ -34,7 +36,7 @@ footer {
 }
 
 .d {
-  background-image: url("/images/tom3.png");
+  background-image: url("/images/tom4.png");
 }
 
 .j {
@@ -69,18 +71,21 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 6px solid #000;
   font-size: 5rem;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Roboto', sans;
   line-height: 2;
   font-weight: 900;
-  color: #681d70;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
+  color: #000;
+  border-radius: 10px;
   display: inline-block;
   width: 150px;
   height: 150px;
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+footer:hover {
+  color: #f7ab0a;
 }
